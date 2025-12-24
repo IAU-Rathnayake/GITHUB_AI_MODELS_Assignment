@@ -1,23 +1,36 @@
-# GITHUB_AI_MODELS_Assignment
-This repo contains the core tasks I completed to earn a course certificate. I complete all three tasks below using Python in Jupyter Notebooks.
+# 🤖 Introduction to GitHub Models: Course Assignments
 
-## Task 01: Sentiment Analysis with OpenAI GPT-4
-- **Goal:** Use the OpenAI GPT-4 model to analyze the sentiment of a given text (positive, negative, or neutral).
-- **Steps:**
-  1. Create a Node.js script that sends a prompt to the GPT-4 model asking for sentiment analysis.
-  2. Input: Any text string (e.g., "I love learning new things!").
-  3. Output: The sentiment label (positive/negative/neutral).
- 
-## Task 02: Code Generation with Anthropic Claude-2
-- **Goal:** Use Anthropic Claude-2 to generate a Python function that reverses a string.
-- **Steps:**
-  1. Create a Node.js script that sends a prompt to Claude-2 asking for a Python function to reverse a string.
-  2. Input: Prompt like "Write a Python function to reverse a string."
-  3. Output: The generated Python code.
-  
-## Task 03: Text Embedding with Mistral
-- **Goal:** Use a Mistral model to generate embeddings for a given text.
-- **Steps:**
-  1. Create a Node.js script that calls a Mistral embedding endpoint.
-  2. Input: Any text string (e.g., "GitHub Models are powerful!").
-  3. Output: The embedding vector (array of numbers).
+This repository contains the practical assignments and capstone tasks completed for the **"Introduction to GitHub Models"** short course.
+
+The workshop, led by **Nisal Gunawardhana**, focuses on leveraging the GitHub Models marketplace to integrate Large Language Models (LLMs) into applications using Azure AI Inference.
+
+> **Original Course:** [Introduction to GitHub Models](https://github.com/nisalgunawardhana/Introduction-to-Github-models)
+
+## 📂 Project Overview
+While the original course material provides examples in Node.js, I have implemented all solutions using **Python** and **Jupyter Notebooks** to align with industry standards for AI/ML engineering.
+
+This project demonstrates:
+* **Secure API Management:** Handling credentials using `.env` and environment variables.
+* **Model Inference:** interacting with models like `GPT-4o` and `Mistral` via the OpenAI SDK.
+* **Prompt Engineering:** Designing system messages for specific outputs.
+* **Vector Embeddings:** Generating text embeddings for semantic similarity tasks.
+
+## ✅ Completed Tasks
+
+### 1. Sentiment Analysis
+* **Goal:** Build a strict classifier that categorizes text as Positive, Negative, or Neutral.
+* **Model Used:** `gpt-4o`
+* **Key Learning:** Controlling output determinism using strict system prompts and low temperature settings.
+
+### 2. Code Generation
+* **Goal:** Create an AI-powered coding assistant to solve programming problems (e.g., string reversal).
+* **Model Used:** `Mistral-small` / `Llama-3`
+* **Key Learning:** Using open-weight models for specialized technical tasks.
+
+### 3. Vector Embeddings
+* **Goal:** Convert text strings into vector representations to understand semantic meaning.
+* **Model Used:** `text-embedding-3-small`
+* **Key Learning:** Understanding how LLMs perceive text numerically for search and comparison.
+
+---
+*Mentored by Nisal Gunawardhana.*
